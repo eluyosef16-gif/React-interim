@@ -41,4 +41,4 @@ Open the local URL provided by Vite in your browser.
 
 🎓 Learning Goals
 
-This project focuses on React fundamentals, including JSX, reusable components, props, arrays, .map(), and modern frontend project structure.
+This project focuses on React fundamentals, including JSX, reusable components, props.
