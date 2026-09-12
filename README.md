@@ -3,7 +3,6 @@
 A modern recipe discovery platform built with **React and Vite**. The project demonstrates how a traditional HTML homepage can be converted into a reusable, component-based React application.
 
 ## ✨ Features
-
 - Browse featured recipes
 - Reusable `RecipeCard` component
 - Dynamic recipe rendering with `.map()`
