@@ -1,14 +1,20 @@
-function RecipeCard({ title, image, description }) {
+function RecipeCard({ title, image, description, ingredients }) {
   return (
-    <article>
-      <h3>
-        <a href="/recipe">{title}</a>
-      </h3>
-
+    <div className="recipe-card">
       <img src={image} alt={title} />
 
+      <h3>{title}</h3>
+
       <p>{description}</p>
-    </article>
+
+      <h4>Ingredients</h4>
+
+      <ul>
+        {ingredients.map((ingredient) => (
+          <li key={ingredient}>{ingredient}</li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
